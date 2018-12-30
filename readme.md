@@ -9,8 +9,12 @@ routing capabilities. In particular, notice that the photo route can be attached
 
 # Installation
 
-    $ npm install
+    $ npm install --save next react react-dom
 
 # Running the app
 
     $ npm run dev
+    
+or use this if you wish to use another port
+
+    $ npm run dev -- -p (PORT)
